@@ -27,8 +27,9 @@ class Increment_Decrement extends Component {
 
     render(){
         return(
-            <div>
-                <p>{this.state.inputnumber}</p>
+            <div style = {{textAlign: "center"}}>
+                
+                <p  style = {{textAlign:"center",fontSize: "30px"}}>{this.state.inputnumber}</p>
                 <button onClick={this.increment}>Increment</button>
                 <button onClick={this.decrement}>Decrement</button>
             </div>
